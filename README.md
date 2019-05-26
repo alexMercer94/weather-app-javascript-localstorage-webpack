@@ -11,9 +11,9 @@
 ## Command
 - Run application in dev:
 
-    ```````
+    ````````
     npm run dev
-    ``````
+    ````````
 
 - Prepare file to production:
 
