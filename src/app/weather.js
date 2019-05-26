@@ -17,4 +17,14 @@ export class Weather {
         const data = await response.json();
         return data;
     }
+
+    /**
+     * Change location to consulting weather service
+     * @param {*} city Name of the city to consult
+     * @param {*} countryCode Country code to consult
+     */
+    changeLocation(city, countryCode) {
+        this.city = city;
+        this.countryCode = countryCode;
+    }
 }
